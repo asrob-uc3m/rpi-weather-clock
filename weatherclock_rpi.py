@@ -38,8 +38,8 @@ mqtt_connection_stale_threshold = 30  # Consider connection stale after 30 secon
 
 # local settings
 old_time = time.strftime('%H:%M:%S')
-longitude = "8.863"
-latitude  = "48.808"
+longitude = "-3.6833306"
+latitude  = "40.3999984"
 timezone = "Europe/Berlin"
 zoom = 11
 radar_background = "esri_topo"
@@ -1277,7 +1277,7 @@ def main():
         image_width_pixels=512,
         image_height_pixels=512,
         cities={
-                    'Heimsheim': (8.863, 48.808, 'red'),
+                    'Madrid': (-3.6833306, 40.3999984, 'red'),
                     'Leonberg': (9.014, 48.798, 'green'),
                     'Rutesheim': (8.947, 48.808, 'green'),
                     'Renningen': (8.934, 48.765, 'green'),
